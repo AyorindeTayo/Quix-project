@@ -11,7 +11,7 @@ producer = KafkaProducer(
 )
 
 # OpenWeatherMap API endpoint and key
-api_key = '4fc50873c0ef9ecb48ab7e4763ad1c88'  # Replace with your actual API key
+api_key = ''  # Replace with your actual API key
 city = 'Johannesburg'  # Change to the city of your choice
 api_url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}'
 
